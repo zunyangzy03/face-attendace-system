@@ -1,6 +1,6 @@
 # Face Attendance System with Liveness Detection & Antispoof
 ## Overview
-This project presents a comprehensive exploration and comparison of two distinct approaches to building a face recognition application: face verification (self-supervised learning) and face classification (supervised learning). The system integrates the best-performing model into a face attendance system with an anti-spoofing module to ensure security and reliability.
+This project presents a comprehensive exploration and comparison of two distinct approaches to building a face recognition application: face verification (self-supervised learning) and face classification (supervised learning). The system integrates the best-performing model into a face attendance system with an anti-spoofing module to ensure security and reliability. Please refer the [project report](102781103_FASProjectReport) for more details. 
 
 ## Files and Their Descriptions
 1. `102781103_FASProjectReport.pdf`
