@@ -16,30 +16,30 @@ This Jupyter notebook includes the implementation of the Siamese network for fac
 This Jupyter notebook documents the process of building the face attendance application using the trained Siamese model. It includes steps for loading the model, preprocessing images, verifying faces, logging events, and creating the user interface with Tkinter. The application integrates real-time webcam functionality and an anti-spoofing module.
 
 ## Application Interface
+1. Unknown user detected
 ![Unknown user trying to login](demo_images/unknownuser.png)
-![Registering new user](demo_images/register.png)
+
+2. Registering new user
+![Registering new user](demo_images/registration.png)
+
+3. User logged in
 ![User logged in](demo_images/loggedin.png)
+
+4. Antispoof triggered
 ![Antispoof triggered](demo_images/antispoof.png)
+
+5. User logged out
 ![User logged out](demo_images/loggedout.png)
+
+6. Event recorded in `attendance.csv`
 ![Event record](demo_images/attendance.png)
 
 ## Downloading Pre-trained Models
 Pre-trained models and other resources must be downloaded and placed in the same directory. Ensure you have the following models and datasets downloaded:
-1. [Download Kaggle Face Dataset]([url](https://www.kaggle.com/competitions/11-785-fall-20-homework-2-part-2/data))
-2. [Download `deploy.txt` & `res10_300x300_ssd_iter_140000.caffemodel`]([url](https://github.com/Shiva486/facial_recognition))
-3. [Download VGG face weights]([url](https://www.kaggle.com/datasets/acharyarupak391/vggfaceweights))
-4. [Download Pre-trained antispoofing model]([url](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing/tree/master))
-
-## Create the following directories as data store
-root/
-  |__`face_attendance_app.ipynb`
-  |__...other notebooks
-  |__unzipped dataset
-  |__...other pre-trained models
-  |__siamese_app_data/
-      |__input_images/
-      |__verification_images_app/
-      |__`attendance.csv`
+1. [Download Kaggle Face Dataset](https://www.kaggle.com/competitions/11-785-fall-20-homework-2-part-2/data)
+2. [Download `deploy.txt` & `res10_300x300_ssd_iter_140000.caffemodel`](https://github.com/Shiva486/facial_recognition)
+3. [Download VGG face weights](https://www.kaggle.com/datasets/acharyarupak391/vggfaceweights)
+4. [Download Pre-trained antispoofing model](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing/tree/master)
 
 
-If you would like to contribute to this project, please fork the repository and submit a pull request. For any issues or suggestions, please open an issue on GitHub or contact me via [email](zunyangzy03@gmail.com).
+If you would like to contribute to this project, please fork the repository and submit a pull request. For any issues or suggestions, please open an issue on GitHub or contact me via [email](mailto:zunyangzy03@gmail.com).
